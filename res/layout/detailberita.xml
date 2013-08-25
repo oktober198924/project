@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:background="@drawable/lockbackground"
+android:orientation="vertical"
+>
+	
+	<WebView 
+    android:layout_width="fill_parent" 
+    android:id="@+id/webViewDetBer" 
+    android:cacheColorHint="#00000000"
+    android:text="TextView" 
+    android:layout_weight="1"
+    android:layout_height="0dip"
+    >
+    </WebView>
+    
+<AbsoluteLayout 
+android:id="@+id/buttons" 
+android:layout_width="fill_parent"
+android:layout_height="80dip"
+android:layout_alignParentBottom="true" 
+android:layout_alignParentLeft="true"
+android:orientation="vertical"
+>
+
+<ImageView
+android:id="@+id/widget29"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/barkembali"
+>
+</ImageView>
+	
+<ImageButton
+android:id="@+id/widget29"
+android:layout_width="100dip"
+android:layout_height="85dip"
+android:background="@drawable/loadimagekembali"
+android:onClick="tombolKembaliBerita"
+android:layout_x="113dip"
+android:layout_y="-14dip"
+>
+</ImageButton>
+
+	<TextView 
+	android:text="Status: " 
+	android:id="@+id/textViewStat" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_x="0dip"
+	android:layout_y="55dip"
+	android:textStyle="italic">
+	</TextView>
+</AbsoluteLayout>
+
+</LinearLayout>

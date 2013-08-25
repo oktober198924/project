@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:background="@drawable/lockbackground"
+android:orientation="vertical"
+>
+
+	<TextView
+	    android:id="@+id/tvTampil2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="0.03"
+	    android:cacheColorHint="#00000000"
+	    android:text=" " />
+
+    <TextView
+        android:text=""
+        android:id="@+id/tvTampil"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.07"
+        android:cacheColorHint="#00000000"
+        android:textSize="17dip"
+        android:textColor="#ffffff"/>
+    
+<AbsoluteLayout 
+android:id="@+id/buttons" 
+android:layout_width="fill_parent"
+android:layout_height="80dip"
+android:layout_alignParentBottom="true" 
+android:layout_alignParentLeft="true"
+android:orientation="vertical"
+>
+
+<ImageView
+android:id="@+id/widget29"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/barkembali"
+>
+</ImageView>
+
+	<TextView 
+	android:text="Status: " 
+	android:id="@+id/textViewStat" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_x="0dip"
+	android:layout_y="55dip"
+	android:textStyle="italic">
+	</TextView>
+
+	<ImageButton
+	    android:id="@+id/widget29"
+	    android:layout_width="100dip"
+	    android:layout_height="85dip"
+	    android:layout_x="114dp"
+	    android:layout_y="-13dp"
+	    android:background="@drawable/loadimagekembali"
+	    android:onClick="tombolKembaliAnggota" />
+
+</AbsoluteLayout>
+
+</LinearLayout>
